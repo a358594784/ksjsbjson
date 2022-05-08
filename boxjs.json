@@ -1,0 +1,49 @@
+{
+  "id": "a358594784.app.sub",
+  "name": "快手极速版ck订阅",
+  "author": "@yuwen",
+  "icon": "https://avatars.githubusercontent.com/u/104483693?v=4",
+  "repo": "https://github.com/a358594784/ksjsbjson",
+  "apps": [
+    {
+      "id": "ksjsbCookie",
+      "name": "快手极速版",
+      "keys": ["ksjsbCookie"],
+      "descs_html": [        
+        "脚本地址【<a href=\"https://gitee.com/lxk0301/jd_scripts/raw/master/JD_extra_cookie.js\">快手极速版</a>】，有问题可以提issue",
+        "使用方式：自己抓包获取相应的字段。多账号用@连接",
+        "注：本文件改自lxk大佬"
+      ],
+      "settings": [{
+        "id": "ksjsbWithdrawTime",
+        "name": "默认每天15点提现，要改的话把提现时间填到里面",
+        "val": "",
+        "type": "text",
+        "desc": "提现时间"
+      },{
+        "id": "ksjsbCash",
+        "name": "固定提现金额的话填到里面",
+        "val": "",
+        "type": "text",
+        "desc": "如果提现失败，手动接验证码提现一次"
+      },
+        {
+          "id": "ksjsbCookie",
+          "name": "CK 列表",
+          "val": "",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 8,
+          "desc": "ksjsbCookie"
+        }
+      ],
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/conceay/self-bin@main/Pic/ksjsb.jpg",
+        "https://cdn.jsdelivr.net/gh/conceay/self-bin@main/Pic/ksjsb.jpg"
+      ],
+      "author": "@a358594784",
+      "repo": "https://github.com/a358594784/ksjsbjson",
+      "script": "https://raw.githubusercontent.com/treasunew/SillyLib/main/JavaScript/ksjsb.js"
+    }
+  ]
+}
